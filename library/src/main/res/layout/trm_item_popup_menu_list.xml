@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:orientation="horizontal"
+        >
+    <RelativeLayout
+        android:id="@+id/layout_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp">
+
+    <ImageView
+        android:id="@+id/trm_menu_item_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:scaleType="fitCenter"
+        />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/trm_menu_item_text"
+        android:layout_width="wrap_content"
+        android:minWidth="56dp"
+        android:layout_height="47dp"
+        android:textColor="@color/second_text_color"
+        android:gravity="center_vertical|left"
+        android:layout_toRightOf="@id/layout_icon"
+        android:textSize="13dp"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        android:id="@+id/view_line"></View>
+
+</LinearLayout>

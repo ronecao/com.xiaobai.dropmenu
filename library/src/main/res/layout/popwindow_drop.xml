@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    >
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/trm_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/up_arrow"
+        android:background="@drawable/popup_window_content_bg"
+    ></android.support.v7.widget.RecyclerView>
+
+
+<ImageView
+    android:id="@+id/up_arrow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/arrow_up" />
+
+<ImageView
+android:id="@+id/down_arrow"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+android:layout_below="@+id/trm_recyclerview"
+android:background="@drawable/down_arrow_drawable" />
+
+    </RelativeLayout>
